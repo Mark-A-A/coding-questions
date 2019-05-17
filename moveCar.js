@@ -109,10 +109,14 @@ function carGrid(rowsColsArr, initialPosition, steps){
     firstMarker,
     initialDirection
   )
+ 
+  let [ row1, row2, row3] = grid
+  console.log('..................')
+  console.log(row1)
+  console.log(row2)
+  console.log(row3)
+  console.log('..................')
   
-  console.dir("grid") //Step 0
-  console.dir(grid) //Step 0
-
   // Drive car with Steps
   for (let i = 1; i <= steps; i++){
     // [matrix, position, markerObj, direction]
@@ -126,17 +130,22 @@ function carGrid(rowsColsArr, initialPosition, steps){
       markerPositionsDirections,
       currentPosition,
       direction  
-    )
+      )
       
       
-    grid = newGrid
-    console.dir(grid) //Step 0
-    currentPosition = newPosition
-    currentMarker = newMarker
-    direction = newDirection
-    
+      let [row1, row2, row3] = newGrid
+      console.log('..................')
+      console.log(row1)
+      console.log(row2)
+      console.log(row3)
+      console.log('..................')
+      
+      currentPosition = newPosition
+      currentMarker = newMarker
+      direction = newDirection
+      
+    }
   }
-}
 
 function moveCar(grid, markers, position, direction ) {
 
