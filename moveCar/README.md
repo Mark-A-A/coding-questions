@@ -1,21 +1,23 @@
-#  Question:
-Starting with grid size, initial position, iterations
-i.e. [3,4],[3,2], 5
-1st parameter is grid size - [rows, cols]
+# To Run
+> node moveCar.js
 
-Gridd is initially all 0s
-Given initial starting positon & initial direction right
 
-##Iteration
+## Question:
+Starting with grid size, initial position, steps i.e. 
+> `[3,4]`, `[3,2]`, `5`
+
+Grid is initially all 0s. Given initial starting positon & initial direction right, move the marker based on number of steps.
+
+## Iteration for Moving
 1. rotate 90 degrees: clockwise, if on 0; counterclockwise if on 1
 2. move 1 space forward
 3. flip preceding space
 
 Available markers :
-* >
-* V
-* <
-* ^
+* ">"
+* "V"
+* "<"
+* "^"
 
 ### INITIAL STARTING POSITION
 ```
