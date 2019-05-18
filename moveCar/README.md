@@ -61,14 +61,13 @@ Available markers :
 
 
 ## My Solution
-Step 1: Initializing the grid based on rows and cols with zeroes
-Step 2: Set up initial marker position
-
-Step 3: Handle next position Value,  
-Step 4: Handle prev position Value,  
-STep 5: handle Marker Rotation with markers >,V,<,^ based on iteration number
-Step 6: Handle next position Marker Direction based on next cell value 
-Step 7: Handle setting marker on current position
-Step 8: Select next marker based direction and rotation
-Step 9 : Print Grid Matrix
-Step 10: Rinse, Repeat
+* Step 1: Initializing the grid based on rows and cols with zeroes
+* Step 2: Set up initial marker position
+* Step 3: Handle next position Value  
+* Step 4: Handle prev position Value  
+* Step 5: handle Marker Rotation with markers >,V,<,^ based on iteration number
+* Step 6: Handle next position Marker Direction based on next cell value 
+* Step 7: Handle setting marker on current position
+* Step 8: Select next marker based direction and rotation
+* Step 9 : Print Grid Matrix
+* Step 10: Rinse, Repeat
