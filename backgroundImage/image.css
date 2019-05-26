@@ -1,0 +1,27 @@
+/* Add your css styles here */
+.image-with-watermark {
+    position: relative;
+    width: 600px;
+    height: 450px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIRJlj0_l0xaOfUOXKX5s0sujC6-pJ8pFJPSI99lEAK4_nX8Ss");
+
+}
+
+
+.image-with-watermark:hover {
+    opacity: .25;
+}
+
+.image-with-watermark:hover::after {
+    transform: rotate(45deg);
+    transform-origin: center center;
+    position: absolute;
+    text-align: center;
+    font-size: 24px;
+    top: 40%;
+    left: 20%;
+    content: attr(data-watermark);
+}
+
