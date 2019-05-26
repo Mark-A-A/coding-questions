@@ -1,0 +1,7 @@
+#search-section form#search-form, input {
+  width:100%;
+}
+
+form#search-form {
+  margin: 15px 0;
+}
